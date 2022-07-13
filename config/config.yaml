@@ -1,0 +1,14 @@
+db:
+  host: 185.22.64.115
+  port: 3306
+  user: puck
+  password: password
+  db_name: gorestPosts
+  timeout: 15
+  maxOpenConns: 25
+  maxIdleConns: 25
+server:
+  port: 3002
+  shutdown_timeout: 60
+grpc-server:
+  port: 50051
